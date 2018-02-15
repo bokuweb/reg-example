@@ -1,0 +1,14 @@
+{
+  "name": "reg-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bokuweb/reg-example.git",
+  "author": "bokuweb <bokuweb12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "reg-cli": "^0.11.0"
+  },
+  "scripts": {
+    "visual:approve": "reg-cli test/latest test/approved test/diffs --report test/report.html --json test/report.json"
+  }
+}
